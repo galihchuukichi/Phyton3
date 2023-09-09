@@ -1,0 +1,9 @@
+# 04 KELAS TERBUKA Phyton3
+
+a = 10
+panjang = 1000
+print("NIlai a : ",a)
+
+# penamaan
+nilaiY = 15
+juta15 = 1000015
