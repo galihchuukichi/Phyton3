@@ -1,0 +1,33 @@
+# 05 KELAS TERBUKA Phyton3
+
+#integer
+data_integer = 1
+print("variabel itu bertipe : ",type(data_integer))
+
+# float
+data_float = 1.5
+print("tipe datanya : ",type(data_float))
+
+# string
+data_str = "Galih"
+print("tipe data : ", type(data_str))
+
+# bool
+data_bool = True
+print("tipe data : ", type(data_bool))
+
+# tester
+data_float = "100"
+print("tipe data ??? : ", type(data_float))
+
+########################### tipe data khusus 
+
+data_complex = complex(5,6)
+print("value : ", data_complex)
+print("tipenya : ", type(data_complex))
+
+########################## tipe data dari bahasa C
+from ctypes import c_double, c_char, c_long
+data_c_double = c_double(10.5)
+print("val : ", data_c_double)
+print("tipe : ", type(data_c_double))
