@@ -1,0 +1,36 @@
+# 06 KELAS TERBUKA 
+# CASTING TIPE DATA
+
+data_int = 0;
+print("val : ", data_int, " | tipe : ", type(data_int));
+print("");
+data_str = str(data_int);
+data_bool = bool(data_int);
+data_float = float(data_int);
+
+print("val : ", data_str, " | tipe : ", type(data_str));
+print("val : ", data_bool, " | tipe : ", type(data_bool));
+print("val : ", data_float, " | tipe : ", type(data_float));
+
+print("============================ FLOAT ========================");
+valFloat1 = 9.999999999999999; # di floor
+valFloat2 = 0.000000000001; # strill True except 0
+valBool1 = bool(valFloat2);
+valInt1 = int(valFloat1);
+print("val : ", valInt1);
+print("val : ", valBool1, " | tipe : ", type(valBool1));
+
+print("");
+print("================ BOOL TO STR ==================")
+valBool2 = True;
+valStr1 = str(valBool2);
+print("isinya : ", valStr1);
+
+print();
+print("=================== STR to INT ===================")
+valStr1 = ""; # this is False
+valStr1 = "0"; # if convert to bool, it is True
+valStr1 = "Galih";
+# valInt1 = int(valStr1); # THIS IS ERROR
+valStr1 = "";
+# valFloat1 = float(valStr1); # THIS IS ERROR
